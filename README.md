@@ -93,8 +93,8 @@ C G <BR>
 D F <BR>
 G F <BR>
 F H <BR>
-<hr>
-<h3>Sample Output</h3>
+
+## Sample Output :
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
@@ -126,21 +126,23 @@ start='A'
 visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
-print(traversedpath)```
-<hr>
+print(traversedpath)
+```
+
 5 5 <BR>
 0 1 <BR>
 0 2 <BR>
 0 3 <BR>
 2 3 <BR>
 2 4 <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
+
+
+## Sample Output :
+
 ['0', '1', '2', '3', '4']
 
-<hr>
-<h3>Result:</h3>
-<hr>
+
+## Result:
+
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
 
